@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveSystem : MonoBehaviour
 {
     public GameObject correctForm;
+   
     private bool moving;
 
     private float startPosX;
@@ -14,10 +15,14 @@ public class MoveSystem : MonoBehaviour
     void Start()
     {
         resetPosition = this.transform.localPosition;
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     void Update()
     {
+        
+        
+        
         if (moving) 
         {
             Vector3 mousePos;
@@ -25,15 +30,15 @@ public class MoveSystem : MonoBehaviour
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
                                                   
             this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.localPosition.z);
-            //this.gameObject.
+            //this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
         }                
     }
 
     private void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))
-
         {
+            
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -41,7 +46,8 @@ public class MoveSystem : MonoBehaviour
             startPosX = mousePos.x - this.transform.localPosition.x;
             startPosY = mousePos.y - this.transform.localPosition.y;
             moving = true;
-
+             
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
             //if this.go.stampValue == letter.stampValue 
         }
     }
@@ -57,6 +63,8 @@ public class MoveSystem : MonoBehaviour
             else
             {
             this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
-            }
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        //this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 }
