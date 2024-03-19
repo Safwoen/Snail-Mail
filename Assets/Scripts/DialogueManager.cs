@@ -36,7 +36,6 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        if (Input.GetKeyDown(KeyCode.E))
         {
             currentSentence = 0;
             animator.SetBool("IsOpen", true);

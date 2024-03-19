@@ -7,6 +7,9 @@ public class Collectible : MonoBehaviour
     public DialogueManager dm;
     public GameObject box;
 
+    GameObject test;
+    bool test2;
+
     private void Start()
     {
         dm = FindObjectOfType<DialogueManager>();
@@ -14,13 +17,22 @@ public class Collectible : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("asdfsdfsd");
-        if (other.CompareTag("Player"))
+        test = other.gameObject;
+        test2 = true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && test2)
         {
-            box.SetActive(true);
-            dm.StartDialogue(dialogue);
-            //other.GetComponent<CharacterController>().collectablesCollected++;
-            //Destroy(gameObject);
+            Debug.Log("asdfsdfsd");
+            if (test.CompareTag("Player"))
+            {
+                box.SetActive(true);
+                dm.StartDialogue(dialogue);
+                //test.GetComponent<CharacterController>().collectablesCollected++;
+                //Destroy(gameObject);
+            }
         }
     }
 
