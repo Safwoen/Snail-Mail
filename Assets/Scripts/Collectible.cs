@@ -1,18 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Collectible : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Dialogue dialogue;
+    public DialogueManager dm;
+    public GameObject box;
+
+    private void Start()
     {
-        
+        dm = FindObjectOfType<DialogueManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        Debug.Log("asdfsdfsd");
+        if (other.CompareTag("Player"))
+        {
+            box.SetActive(true);
+            dm.StartDialogue(dialogue);
+            //other.GetComponent<CharacterController>().collectablesCollected++;
+            //Destroy(gameObject);
+        }
     }
+
 }

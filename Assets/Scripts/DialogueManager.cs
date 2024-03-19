@@ -36,20 +36,22 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        currentSentence = 0;
-        animator.SetBool("IsOpen", true);
-        nameText.text = dialogue.name;
-
-        sentences.Clear();
-
-        foreach (string sentence in dialogue.sentences)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            sentences.Enqueue(sentence);
+            currentSentence = 0;
+            animator.SetBool("IsOpen", true);
+            nameText.text = dialogue.name;
+
+            sentences.Clear();
+
+            foreach (string sentence in dialogue.sentences)
+            {
+                sentences.Enqueue(sentence);
+            }
+
+
+            DisplayNextSentence();
         }
-
-
-        DisplayNextSentence();
-
     }
 
     public void DisplayNextSentence()
