@@ -12,15 +12,47 @@ public class MoveSystem : MonoBehaviour
     private float startPosY;
 
     private Vector3 resetPosition;
+
+    public List<GameObject> colors, labels;
+    List<GameObject> temp_colors, temp_labels;
+    public GameObject billDetection;
+    char packageType;
+    bool spawnNew;
     void Start()
     {
-        resetPosition = this.transform.localPosition;
+        resetPosition = this.transform.position;
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        temp_colors = colors; temp_labels = labels;
     }
 
     void Update()
     {
-        
+        if (spawnNew)
+        {
+            if (temp_colors.Count <= 0)
+            {
+                temp_colors = colors;
+            }
+            //randomises stamp color
+            foreach (GameObject x in temp_colors)
+            {
+                x.SetActive(false);
+            }
+            int rnd = Random.Range(0, temp_colors.Count);
+            temp_colors[rnd].SetActive(true);
+            temp_colors.RemoveAt(rnd);
+
+            
+            //randomises label
+            if (packageType == 'l') { 
+                billDetection.SetActive(true);
+            }
+            else
+            {
+                //do the random things
+            }
+            spawnNew = false;
+        }
         
         
         if (moving) 
@@ -29,7 +61,7 @@ public class MoveSystem : MonoBehaviour
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
                                                   
-            this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.localPosition.z);
+            this.gameObject.transform.position = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.position.z);
             //this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
         }                
     }
@@ -43,8 +75,8 @@ public class MoveSystem : MonoBehaviour
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            startPosX = mousePos.x - this.transform.localPosition.x;
-            startPosY = mousePos.y - this.transform.localPosition.y;
+            startPosX = mousePos.x - this.transform.position.x;
+            startPosY = mousePos.y - this.transform.position.y;
             moving = true;
              
             this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
@@ -55,16 +87,16 @@ public class MoveSystem : MonoBehaviour
     private void OnMouseUp()
     {
         moving = false; 
-        if(Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <=0.5f &&
-           Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.5f)
+        if(Mathf.Abs(this.transform.position.x - correctForm.transform.position.x) <=0.5f &&
+           Mathf.Abs(this.transform.position.y - correctForm.transform.position.y) <= 0.5f)
             {
-            this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
+            this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             }
             else
             {
-            this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+            this.transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
             this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        }
+        }           
         //this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 }
