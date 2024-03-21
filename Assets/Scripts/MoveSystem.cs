@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveSystem : MonoBehaviour
 {
     public GameObject correctForm;
-   
+
     private bool moving;
 
     private float startPosX;
@@ -13,64 +13,36 @@ public class MoveSystem : MonoBehaviour
 
     private Vector3 resetPosition;
 
-    public List<GameObject> colors, labels;
-    List<GameObject> temp_colors, temp_labels;
-    public GameObject billDetection;
-    char packageType;
-    bool spawnNew;
+    bool colliding;
+    Collider2D other;
     void Start()
     {
         resetPosition = this.transform.position;
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        temp_colors = colors; temp_labels = labels;
     }
 
     void Update()
     {
-        if (spawnNew)
+        if (Input.GetMouseButtonUp(0))
         {
-            if (temp_colors.Count <= 0)
-            {
-                temp_colors = colors;
-            }
-            //randomises stamp color
-            foreach (GameObject x in temp_colors)
-            {
-                x.SetActive(false);
-            }
-            int rnd = Random.Range(0, temp_colors.Count);
-            temp_colors[rnd].SetActive(true);
-            temp_colors.RemoveAt(rnd);
-
-            
-            //randomises label
-            if (packageType == 'l') { 
-                billDetection.SetActive(true);
-            }
-            else
-            {
-                //do the random things
-            }
-            spawnNew = false;
+            OnMouseUp();
         }
-        
-        
-        if (moving) 
+        if (moving)
         {
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-                                                  
+
             this.gameObject.transform.position = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.position.z);
             //this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
-        }                
+        }
     }
 
     private void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            
+
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -78,7 +50,7 @@ public class MoveSystem : MonoBehaviour
             startPosX = mousePos.x - this.transform.position.x;
             startPosY = mousePos.y - this.transform.position.y;
             moving = true;
-             
+
             this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
             //if this.go.stampValue == letter.stampValue 
         }
@@ -86,17 +58,34 @@ public class MoveSystem : MonoBehaviour
 
     private void OnMouseUp()
     {
-        moving = false; 
-        if(Mathf.Abs(this.transform.position.x - correctForm.transform.position.x) <=0.5f &&
-           Mathf.Abs(this.transform.position.y - correctForm.transform.position.y) <= 0.5f)
-            {
+        if (colliding)
+        {
             this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
-            }
-            else
+            if (other.CompareTag(transform.tag))
             {
+                FindObjectOfType<Randomization>().ActiveItem.SetActive(true);
+            }
+            else if (other.CompareTag(transform.tag))
+            {
+                FindObjectOfType<Randomization>().spawnNew = true;
+            }
+        }
+        else
+        {
             this.transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
             this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        }           
-        //this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("ASGGHKHG");
+        colliding = true;
+        other = collision;
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        colliding = false;
+        other = null;
     }
 }

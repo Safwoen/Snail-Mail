@@ -8,16 +8,15 @@ public class Randomization : MonoBehaviour
     public List<GameObject> colors, labels;
     List<GameObject> temp_colors, temp_labels;
     public GameObject billDetection;
-    char packageType;
-    bool spawnNew;
+    public GameObject ActiveColour, ActiveItem;
+    char packageType = 'l';
+    public bool spawnNew = true;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        temp_colors = colors; temp_labels = labels;
     }
-
-
 
     void Update()
     {
@@ -33,19 +32,21 @@ public class Randomization : MonoBehaviour
                 x.SetActive(false);
             }
             int rnd = Random.Range(0, temp_colors.Count);
-            temp_colors[rnd].SetActive(true);
+            ActiveColour =temp_colors[rnd];
+            ActiveColour.SetActive(true);
             temp_colors.RemoveAt(rnd);
 
 
             //randomises label
             if (packageType == 'l')
             {
-                billDetection.SetActive(true);
+                ActiveItem = billDetection;
             }
             else
             {
                 //do the random things
             }
+            
             spawnNew = false;
         }
 
