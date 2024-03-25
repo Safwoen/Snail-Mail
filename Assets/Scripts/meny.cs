@@ -15,7 +15,7 @@ public class meny : MonoBehaviour
         Application.Quit();
     }
 
-    public void Controls()
+    public void Keybinds()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
@@ -27,11 +27,16 @@ public class meny : MonoBehaviour
 
     public void MailMakingPart1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void MailMakingPart2()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void Delivering()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

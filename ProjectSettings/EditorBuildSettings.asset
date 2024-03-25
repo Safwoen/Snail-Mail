@@ -9,17 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 2789bc836af52be4598f4bbdc9e3f1a5
   - enabled: 1
-    path: Assets/Scenes/MailMakingMAINMAIN.unity
-    guid: 0ad3595d30849a74aae5d80fdecd53f3
+    path: Assets/Scenes/MailMakingpart MAINMAIN 1.unity
+    guid: 5ce8d5388b9f21b408e05962b4b2e6d7
+  - enabled: 1
+    path: Assets/Scenes/Keybinds.unity
+    guid: 6b762354cd9a6954ebeea717c0a72845
   - enabled: 1
     path: Assets/Scenes/MailMakingPart 1.unity
     guid: 6393624afaf5bcd4497b98f8b4b7e103
   - enabled: 1
     path: Assets/Scenes/MailMakingPart 2.unity
     guid: 2897d36bc1ccb0e46b150dcd3c61afba
-  - enabled: 0
-    path: Assets/Scenes/MailMakingMain.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Delivering.unity
     guid: 5d09a530243a2df47ac4b759cadea019
