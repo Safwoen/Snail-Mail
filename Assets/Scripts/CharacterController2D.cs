@@ -8,6 +8,7 @@ public class CharacterController2D : MonoBehaviour
     public const float MOVE_SPEED = 60f;
     private Rigidbody2D rigidbody2D;
     private Vector3 moveDir;
+    public Animator anim;
 
     private void Awake()
     {
@@ -36,6 +37,9 @@ public class CharacterController2D : MonoBehaviour
             moveX = +1f;
         }
         moveDir = new Vector3 (moveX, moveY).normalized;
+        anim.SetFloat("Direction X", moveX) ;
+        anim.SetFloat("Direction Y", moveY);
+        anim.SetBool("Moving", moveX != 0 || moveY != 0);
     }
 
     private void FixedUpdate()
