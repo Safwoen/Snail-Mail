@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10db80987c057c24ab21a6b51793586a
+guid: da87ec7b0748de548aa05605190d1279
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -136,34 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_0
+      name: Title screen-Sheet (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 68
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 4, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a12bf460041a7c449b2538127edfdbb3
-      internalID: -682410672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dimi-Sheet bigger_1
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 0
-        width: 64
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91d78f16aaf3818448719d502e032315
-      internalID: 1999106329
+      spriteID: 2d96453b99453d94692cebffcffce11a
+      internalID: 1350495473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_2
+      name: Title screen-Sheet (1)_1
       rect:
         serializedVersion: 2
-        x: 134
+        x: 519
         y: 0
-        width: 67.75
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe37993200584c747be85aa2c99514b2
-      internalID: 1749045804
+      spriteID: 36597b912d6e4934da1174d26ac717e6
+      internalID: -1062090006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_3
+      name: Title screen-Sheet (1)_2
       rect:
         serializedVersion: 2
-        x: 203
+        x: 1038
         y: 0
-        width: 64
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70c2573615c9f544bb05da62ab0ee529
-      internalID: -1170368929
+      spriteID: f8c79b51ae75ef64ab204c72242d9fbf
+      internalID: -678456927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_4
+      name: Title screen-Sheet (1)_3
       rect:
         serializedVersion: 2
-        x: 271
+        x: 1557
         y: 0
-        width: 66
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,41 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60659d019ef267a47981277b0412ae27
-      internalID: 174100540
+      spriteID: 350dea72043338946ade7c43bedbfb6b
+      internalID: -1895430494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_5
+      name: Title screen-Sheet (1)_4
       rect:
         serializedVersion: 2
-        x: 336
+        x: 2076
         y: 0
-        width: 68
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 3, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8d4c07385fbccb44a9149bace63b87d
-      internalID: 1178602322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dimi-Sheet bigger_6
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 0
-        width: 65
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,41 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a5b7a52d91aa4342ba073c5c491bce5
-      internalID: -337344647
+      spriteID: 959c414c20f5a9d4e9b2e675dc0df5c7
+      internalID: -990353204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_7
+      name: Title screen-Sheet (1)_5
       rect:
         serializedVersion: 2
-        x: 475
+        x: 2595
         y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 1, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ba4fae6bd935d94eba47448e5c0020c
-      internalID: -222409102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dimi-Sheet bigger_8
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 0
-        width: 67
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bca5c158d9d3b84aa917176867fb9e2
-      internalID: -728338479
+      spriteID: 6f17aa4d8c2457e4b9d901679a6aa6ae
+      internalID: -248560568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_9
+      name: Title screen-Sheet (1)_6
       rect:
         serializedVersion: 2
-        x: 611
+        x: 3114
         y: 0
-        width: 66
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e516cc728049c2240b901cebf0119cc4
-      internalID: 32418305
+      spriteID: 1df7459d583553d44ae83444fba28b88
+      internalID: 123749075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_10
+      name: Title screen-Sheet (1)_7
       rect:
         serializedVersion: 2
-        x: 680
+        x: 3633
         y: 0
-        width: 64
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 936a75fd42e3c2f4ebe1be3ef1967d23
-      internalID: 1868121416
+      spriteID: d0fee2938d00b514b8d64d5ba6f0d5d8
+      internalID: -480570412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_11
+      name: Title screen-Sheet (1)_8
       rect:
         serializedVersion: 2
-        x: 748
+        x: 4152
         y: 0
-        width: 64
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceaff71daf89f8545b32358e1c9f8085
-      internalID: -952477186
+      spriteID: 10c4db5928e96b144977af261445b876
+      internalID: -706898390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_12
+      name: Title screen-Sheet (1)_9
       rect:
         serializedVersion: 2
-        x: 815
+        x: 4671
         y: 0
-        width: 65
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80503e89976c7404ebdd0e97007f548e
-      internalID: -1163119865
+      spriteID: 4031a7e502addc642878cca616898b3f
+      internalID: 1479135407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_13
+      name: Title screen-Sheet (1)_10
       rect:
         serializedVersion: 2
-        x: 884
+        x: 5190
         y: 0
-        width: 65
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e016a65447db2a84389345faee4fd29d
-      internalID: 564710635
+      spriteID: b4925f7e51cace342a9be19c11479957
+      internalID: -1143148703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_14
+      name: Title screen-Sheet (1)_11
       rect:
         serializedVersion: 2
-        x: 952
+        x: 5709
         y: 0
-        width: 64
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,20 +381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00c757efb10c0149a0a3f5629a71f62
-      internalID: -1452482343
+      spriteID: 7cee380586c7f654faf7fca777b85867
+      internalID: -178756497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dimi-Sheet bigger_15
+      name: Title screen-Sheet (1)_12
       rect:
         serializedVersion: 2
-        x: 1020
+        x: 6228
         y: 0
-        width: 64
-        height: 128
+        width: 519.5789
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,8 +402,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d186688a62b01439522f333273ce64
-      internalID: 2110988569
+      spriteID: c278bb2f69c1e3f44b76538fb33e2377
+      internalID: -85019611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title screen-Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 0
+        width: 519.5789
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a81bd35920317042bb028d3f4cb6a95
+      internalID: -881488127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title screen-Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 0
+        width: 519.5789
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6154cce62a8c574a832223d3d7b1ef4
+      internalID: -366982650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title screen-Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 7785
+        y: 0
+        width: 519.5789
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a3d84174678ef49afb85722d89d6bb
+      internalID: 265010426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title screen-Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 0
+        width: 519.5789
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6b9816860b07c4198fbaef665627d3
+      internalID: 915191296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title screen-Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 8823
+        y: 0
+        width: 519.5789
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405a6a00ac7cc5e4b9b041fac7426ae3
+      internalID: -1381015643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title screen-Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 0
+        width: 519.5789
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c028bd127cad14798bc22257fbcb89
+      internalID: 1971865418
       vertices: []
       indices: 
       edges: []
@@ -482,22 +545,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dimi-Sheet bigger_0: -682410672
-      Dimi-Sheet bigger_1: 1999106329
-      Dimi-Sheet bigger_10: 1868121416
-      Dimi-Sheet bigger_11: -952477186
-      Dimi-Sheet bigger_12: -1163119865
-      Dimi-Sheet bigger_13: 564710635
-      Dimi-Sheet bigger_14: -1452482343
-      Dimi-Sheet bigger_15: 2110988569
-      Dimi-Sheet bigger_2: 1749045804
-      Dimi-Sheet bigger_3: -1170368929
-      Dimi-Sheet bigger_4: 174100540
-      Dimi-Sheet bigger_5: 1178602322
-      Dimi-Sheet bigger_6: -337344647
-      Dimi-Sheet bigger_7: -222409102
-      Dimi-Sheet bigger_8: -728338479
-      Dimi-Sheet bigger_9: 32418305
+      Title screen-Sheet (1)_0: 1350495473
+      Title screen-Sheet (1)_1: -1062090006
+      Title screen-Sheet (1)_10: -1143148703
+      Title screen-Sheet (1)_11: -178756497
+      Title screen-Sheet (1)_12: -85019611
+      Title screen-Sheet (1)_13: -881488127
+      Title screen-Sheet (1)_14: -366982650
+      Title screen-Sheet (1)_15: 265010426
+      Title screen-Sheet (1)_16: 915191296
+      Title screen-Sheet (1)_17: -1381015643
+      Title screen-Sheet (1)_18: 1971865418
+      Title screen-Sheet (1)_2: -678456927
+      Title screen-Sheet (1)_3: -1895430494
+      Title screen-Sheet (1)_4: -990353204
+      Title screen-Sheet (1)_5: -248560568
+      Title screen-Sheet (1)_6: 123749075
+      Title screen-Sheet (1)_7: -480570412
+      Title screen-Sheet (1)_8: -706898390
+      Title screen-Sheet (1)_9: 1479135407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
