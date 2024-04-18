@@ -166,6 +166,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: Direction X
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: Direction Y
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7425212313133933238}
   m_Solo: 0
@@ -464,6 +467,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: Direction Y
     m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: Direction X
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1992087011323010400}
   m_Solo: 0
@@ -541,8 +547,11 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 4
+  - m_ConditionMode: 3
     m_ConditionEvent: Direction Y
+    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: Direction X
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7856053610201391162}
@@ -569,6 +578,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: Direction Y
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: Direction X
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1992087011323010400}
   m_Solo: 0
@@ -591,8 +603,11 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 4
+  - m_ConditionMode: 3
     m_ConditionEvent: Direction X
+    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: Direction Y
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2293040180078838641}
@@ -695,6 +710,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: Direction X
     m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: Direction Y
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2293040180078838641}
   m_Solo: 0
@@ -744,6 +762,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Direction Y
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: Direction X
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7856053610201391162}
@@ -799,6 +820,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Direction X
+    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: Direction Y
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7425212313133933238}
