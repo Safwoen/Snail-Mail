@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEngine;
+using UnityEngine.U2D.IK;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class CharacterController2D : MonoBehaviour
         anim.SetFloat("Direction X", moveX) ;
         anim.SetFloat("Direction Y", moveY);
         anim.SetBool("Moving", moveX != 0 || moveY != 0);
+       
     }
 
     private void FixedUpdate()
