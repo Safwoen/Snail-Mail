@@ -17,14 +17,14 @@ public class PackageCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        packageText.text = "Package:  " +currentPackage.ToString();
+        packageText.text = "Package: " + currentPackage.ToString();
     }
 
 
     public void IncreasePackage (int v) 
     {
         currentPackage += v;
-        packageText.text += "Package:  " + currentPackage.ToString();
+        packageText.text = "Package: " + currentPackage.ToString();
 
     }
     
