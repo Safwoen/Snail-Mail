@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
             DisplayNextSentence();
 
         }
-        if (currentSentence == 2)
+        if (currentSentence == 3)
         {
             dialogueBox.SetActive(false);
         }
