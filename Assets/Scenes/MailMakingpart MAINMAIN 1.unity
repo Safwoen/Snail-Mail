@@ -1729,16 +1729,16 @@ RectTransform:
   - {fileID: 1248704400}
   - {fileID: 661081869}
   - {fileID: 646643438}
-  - {fileID: 1493884623}
   - {fileID: 750271477}
+  - {fileID: 1493884623}
   - {fileID: 963055978}
   - {fileID: 886662359}
   - {fileID: 243230491}
+  - {fileID: 1571616286}
+  - {fileID: 945824688}
   - {fileID: 871684055}
   - {fileID: 179368053}
-  - {fileID: 1571616286}
   - {fileID: 557027507}
-  - {fileID: 945824688}
   - {fileID: 201033227}
   m_Father: {fileID: 644567321}
   m_RootOrder: -1

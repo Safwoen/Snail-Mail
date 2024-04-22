@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Stamp
   - Item
+  - Package
   layers:
   - Default
   - TransparentFX

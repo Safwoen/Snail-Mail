@@ -23,7 +23,7 @@ public class Collectible : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && test2)
+        if (Input.GetKeyDown(KeyCode.Q) && test2)
         {
             Debug.Log("asdfsdfsd");
             if (test.CompareTag("Player"))

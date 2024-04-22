@@ -27,5 +27,13 @@ public class PackageCounter : MonoBehaviour
         packageText.text = "Package: " + currentPackage.ToString();
 
     }
-    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.LogWarning("hyjgfhytjg");
+        if (other.gameObject.CompareTag("Package"))
+        {
+            currentPackage++;
+            packageText.text = "Package: " + currentPackage.ToString();
+        }
+    }
 }
