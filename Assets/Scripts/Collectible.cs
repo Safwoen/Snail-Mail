@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem.Android;
@@ -28,7 +29,7 @@ public class Collectible : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && test2)
         {
-            Debug.Log("asdfsdfsd");
+           
             if (test.CompareTag("Player"))
             {
                 box.SetActive(true);
@@ -38,21 +39,14 @@ public class Collectible : MonoBehaviour
             }
         }
 
-        void OnTriggerEnter(Collider2D other)
-        {
-          if (other.gameObject.tag == "Player")
+       void OnTriggerEnter2D(Collision2D other)
+       
             {
                 Image.SetActive(true);
             }
-            
-        
-        }
+          
 
-       void OnCollisionEnter2D (Collision other)
-        {
-            Image.SetActive(true); 
-            
-        }
+        
     }
 
 }
