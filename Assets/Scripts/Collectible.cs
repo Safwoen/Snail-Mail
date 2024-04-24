@@ -23,13 +23,20 @@ public class Collectible : MonoBehaviour
     {
         test = other.gameObject;
         test2 = true;
+        Image.SetActive(true);
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        Image.SetActive(false);
+
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && test2)
         {
-           
+
             if (test.CompareTag("Player"))
             {
                 box.SetActive(true);
@@ -39,14 +46,6 @@ public class Collectible : MonoBehaviour
             }
         }
 
-       void OnTriggerEnter2D(Collision2D other)
        
-            {
-                Image.SetActive(true);
-            }
-          
-
-        
     }
-
 }
