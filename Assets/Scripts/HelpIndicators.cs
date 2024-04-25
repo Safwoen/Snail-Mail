@@ -16,6 +16,7 @@ public class HelpIndicators : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
+
             bool isActive = Canvas.activeSelf;
 
             Canvas.SetActive(!isActive);
