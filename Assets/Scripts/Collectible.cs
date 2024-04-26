@@ -43,7 +43,7 @@ public class Collectible : MonoBehaviour
                 dm.StartDialogue(dialogue);
                 //test.GetComponent<CharacterController>().collectablesCollected++;
                 //Destroy(gameObject);
-              //  ScoreScript.scoreValue += 500;
+                FindObjectOfType<ScoreScript>().scoreValue += 500;
             }
         }
     }
