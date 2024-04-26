@@ -141,10 +141,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 376
+        width: 372
         height: 536
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: Marigolds house-Sheet_1
       rect:
         serializedVersion: 2
-        x: 376
+        x: 380
         y: 0
-        width: 376
+        width: 372
         height: 536
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
