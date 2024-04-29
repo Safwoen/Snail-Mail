@@ -40,6 +40,11 @@ public class meny : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void packageMaking()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void Delivering()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
