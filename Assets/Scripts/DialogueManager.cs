@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor.Search.Providers;
 
 public class DialogueManager : MonoBehaviour
 {
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public GameObject dialogueBox;
+    public GameObject Image;
 
     public Animator animator;
 
@@ -40,7 +42,7 @@ public class DialogueManager : MonoBehaviour
             currentSentence = 0;
             animator.SetBool("IsOpen", true);
             nameText.text = dialogue.name;
-
+            Image.SetActive(true);
             sentences.Clear();
 
             foreach (string sentence in dialogue.sentences)
@@ -66,6 +68,20 @@ public class DialogueManager : MonoBehaviour
 
 
         string sentence = sentences.Dequeue();
+        if (sentence.Contains("SPRITE-"))
+        {
+            switch (sentence.Split('-')[1])
+            {
+                case "Player":
+                    //show player sprite
+                    break;
+                case "Other":
+                    //show other sprite
+                    //change name of speaker
+                    break;
+            }
+            sentence = sentences.Dequeue();
+        }
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
@@ -83,6 +99,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        Image.SetActive(false);
     }
 }
 

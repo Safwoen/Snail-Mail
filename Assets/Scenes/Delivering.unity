@@ -4294,6 +4294,9 @@ MonoBehaviour:
     sentences:
     - "Hello, you must be Dimi right? The whole town of Pizmo has been hearing about
       you. I hope you\u2019re enjoying your new job! "
+    - SPRITE-Player
+    - PLAYERS DIALOGUE HERE
+    - SPRITE-Other
     - "How did I know it was a new job? \u2026. Lucky guess?"
     - "Anyways! What\u2019s this? A letter for me? Why thank you-"
     - "Argh\u2026 Bills again.. Bats.."
@@ -5988,7 +5991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1924, y: -1113}
+  m_AnchoredPosition: {x: -8, y: -1113}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886719871
@@ -6928,6 +6931,7 @@ MonoBehaviour:
   nameText: {fileID: 309844870}
   dialogueText: {fileID: 1643458301}
   dialogueBox: {fileID: 391096676}
+  Image: {fileID: 912875386}
   animator: {fileID: 391096678}
   currentSentence: 0
 --- !u!4 &1207016667
@@ -7240,7 +7244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152, y: -66}
+  m_AnchoredPosition: {x: 152, y: -55}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298164661
@@ -7578,7 +7582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324041837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.74, y: 0.38, z: 0}
+  m_LocalPosition: {x: 29.74, y: 0.07, z: 0}
   m_LocalScale: {x: 0.987062, y: 0.987062, z: 0.987062}
   m_ConstrainProportionsScale: 0
   m_Children: []
