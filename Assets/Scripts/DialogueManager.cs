@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour
             {
                 sentences.Enqueue(sentence);
             }
-
+           
 
             DisplayNextSentence();
         }
@@ -77,9 +77,9 @@ public class DialogueManager : MonoBehaviour
                     portrait.sprite = images[1];
                     nameText.text = "Damien";
                     break;
-                case "MariGold":
+                case "Marigold":
                     portrait.sprite = images[2];
-                    nameText.text = "MariGold";
+                    nameText.text = "Marigold";
                     break;
                 case "Jiji":
                     portrait.sprite = images[3];
