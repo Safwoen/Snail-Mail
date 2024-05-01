@@ -10,11 +10,13 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public GameObject dialogueBox;
-    public GameObject Image;
+    public Sprite[] images;
+    public Image portrait;
 
     public Animator animator;
 
     private Queue<string> sentences;
+    List<string> sentencesList;
     public int currentSentence;
     void Start()
     {
@@ -30,10 +32,6 @@ public class DialogueManager : MonoBehaviour
             DisplayNextSentence();
 
         }
-        if (currentSentence == 3)
-        {
-            dialogueBox.SetActive(false);
-        }
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -42,7 +40,6 @@ public class DialogueManager : MonoBehaviour
             currentSentence = 0;
             animator.SetBool("IsOpen", true);
             nameText.text = dialogue.name;
-            Image.SetActive(true);
             sentences.Clear();
 
             foreach (string sentence in dialogue.sentences)
@@ -73,11 +70,28 @@ public class DialogueManager : MonoBehaviour
             switch (sentence.Split('-')[1])
             {
                 case "Player":
-                    //show player sprite
+                    portrait.sprite = images[0];
+                    nameText.text = "Dimi";
                     break;
-                case "Other":
-                    //show other sprite
-                    //change name of speaker
+                case "Damien":
+                    portrait.sprite = images[1];
+                    nameText.text = "Damien";
+                    break;
+                case "MariGold":
+                    portrait.sprite = images[2];
+                    nameText.text = "MariGold";
+                    break;
+                case "Jiji":
+                    portrait.sprite = images[3];
+                    nameText.text = "Jiji";
+                    break;
+                case "Keith":
+                    portrait.sprite = images[4];
+                    nameText.text = "Keith";
+                    break;
+                case "Katie":
+                    portrait.sprite = images[5];
+                    nameText.text = "Katie";
                     break;
             }
             sentence = sentences.Dequeue();
@@ -99,7 +113,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-        Image.SetActive(false);
     }
 }
 
