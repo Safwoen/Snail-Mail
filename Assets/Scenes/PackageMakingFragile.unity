@@ -3111,7 +3111,7 @@ GameObject:
   - component: {fileID: 1360407325}
   - component: {fileID: 1360407324}
   m_Layer: 0
-  m_Name: 'Bill '
+  m_Name: Place here
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
