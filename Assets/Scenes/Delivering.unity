@@ -4720,6 +4720,7 @@ MonoBehaviour:
   dialogue:
     name: Damien
     sentences:
+    - SPRITE-Damien
     - "Hello, you must be Dimi right? The whole town of Pizmo has been hearing about
       you. I hope you\u2019re enjoying your new job! "
     - "How did I know it was a new job? \u2026. Lucky guess?"
@@ -4743,6 +4744,7 @@ MonoBehaviour:
     - "These bills have been coming here 3 mailmen prior. I don\u2019t think I'm
       leaving anytime soon dear. But thank you for the mail! "
     - SPRITE-Player
+    - 'Alright! Bye! '
     - 'Alright! Bye! '
   dm: {fileID: 0}
   box: {fileID: 391096676}
@@ -6878,7 +6880,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecc9d0df35a61f849a20f892bdecdb10, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
