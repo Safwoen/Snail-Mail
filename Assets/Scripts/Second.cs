@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Second : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Second : MonoBehaviour
 
     private float startPosX;
     private float startPosY;
+    public AudioSource paper;
+    public AudioSource stamp;
 
     private Vector3 resetPosition;
     void Start()
@@ -48,6 +51,7 @@ public class Second : MonoBehaviour
             moving = true;
 
             this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            paper.PlayOneShot(paper.clip);
             //if this.go.stampValue == letter.stampValue 
         }
     }
@@ -57,13 +61,16 @@ public class Second : MonoBehaviour
         moving = false;
         if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 0.5f &&
            Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.5f)
+
         {
             this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
+            stamp.PlayOneShot(stamp.clip);
         }
         else
         {
             this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
             this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
         }
         //this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }

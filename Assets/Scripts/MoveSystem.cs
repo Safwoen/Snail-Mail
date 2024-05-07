@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MoveSystem : MonoBehaviour
 {
@@ -13,12 +14,14 @@ public class MoveSystem : MonoBehaviour
 
     private Vector3 resetPosition;
 
+
     bool colliding;
     Collider2D other;
     void Start()
     {
         resetPosition = this.transform.position;
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        //FindObjectOfType<meny>().MailMakingPart1.SetActive.(true);
     }
 
     void Update()
