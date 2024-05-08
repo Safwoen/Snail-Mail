@@ -10,15 +10,17 @@ public class ColourblindFilters : MonoBehaviour
     public Toggle toggleNone;
     public Toggle toggleProtanopia;
     public Toggle toggleDeuteranopia;
-    PostProcessProfile profile;
-    PostProcessVolume volume;
+    public PostProcessProfile Default;
+    public PostProcessProfile Protanopia;
+    public PostProcessProfile Deuteranopia;
+    public PostProcessVolume volume;
     // Start is called before the first frame update
     void Start()
     {
         if(PlayerPrefs.GetInt("ToggleBool") == 1) 
         {
             toggleNone.isOn = true;
-            volume.profile = profile;
+            volume.profile = Default;
         }
         else
         {
@@ -28,6 +30,7 @@ public class ColourblindFilters : MonoBehaviour
         if (PlayerPrefs.GetInt("ToggleBool") == 1)
         {
             toggleProtanopia.isOn = true;
+            volume.profile = Protanopia;
         }
         else
         {
@@ -37,6 +40,7 @@ public class ColourblindFilters : MonoBehaviour
         if (PlayerPrefs.GetInt("ToggleBool") == 1)
         {
             toggleDeuteranopia.isOn = true;
+            volume.profile = Deuteranopia;
         }
         else
         {
