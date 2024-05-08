@@ -29,6 +29,7 @@ public class Collectible : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         Image.SetActive(false);
+        test2 = false;
 
     }
 
