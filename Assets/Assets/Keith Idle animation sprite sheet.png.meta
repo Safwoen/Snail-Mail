@@ -1,0 +1,1011 @@
+fileFormatVersion: 2
+guid: 897f3382fcbf939408513129d3aba731
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9240a2921449f4995b1dd357d547fb
+      internalID: 896714175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e62131d0c90c0945a1d30e832bc0766
+      internalID: 211680139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108d51e69dde88945ace50963e0139ad
+      internalID: -1854165490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d22a0ccb594f4c9fe11d8fa5eb584
+      internalID: -1761228991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93756b4e3cbc9be48ad2f94ddf27cf7c
+      internalID: 2135774707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6713fefa3386d854eb7c787ddfbe0675
+      internalID: 180325910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d850d65db30944ca842a4303a2716b
+      internalID: 759298966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077b72a135cc5f4cae7e1bde48c30f0
+      internalID: 753626678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12fd6a4896b7484bbfba4b1db0f6f6f
+      internalID: 1071337571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c3dd4f1564674cb03e68d88d40445
+      internalID: -1667759941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc74f0f120642a4d841e83786715ca8
+      internalID: -1547116653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1409bae5f5a1f847a921555cf610ae4
+      internalID: -1268065405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f141d6219cfc45adc8c6265acae8a
+      internalID: -184005853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf68845e4ccc994382f7218b075d522
+      internalID: 184993001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6d0635936a5e74eb2d91417a0a6059
+      internalID: -1833591313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7d3f0b99490ed4586ec7bb1d3ee3b3
+      internalID: 1938994349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b522d45ae4ad6f043bc5ddef072c93b8
+      internalID: -1299436762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70eb37cf869f7d4eb635427307ba4e5
+      internalID: -1340345271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012ef01a8de011e458b20db98c0a2ebc
+      internalID: 128386625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effa7a8286b62ba49962d92ed877e33f
+      internalID: 922950638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a93de407f712924b99269f618dbf7ca
+      internalID: 1895693869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a401c7d16d3d6643a52de96c260858c
+      internalID: 2091142048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bbc313b36374f4faf54ab226609e2f
+      internalID: 1696199785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd59c1dd7c50ff7428f85fd1ab72bea5
+      internalID: 2032573491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a6ba14ec1ffd408e403a190b1dd1b
+      internalID: -1579802697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3373f588cf2347147a6c0f2bcbdaf6d1
+      internalID: -1057722988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b3b41c54dca6248898cdea37c41cf1
+      internalID: 746097262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb5ddaefebf29c4aa1b615da75a1531
+      internalID: 59604467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61a752ec977fd04f86f99170a819102
+      internalID: -1484032090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f859786ab81574846b85a70938a05864
+      internalID: 67103237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6714caf3d979fc42b278f791d380bb5
+      internalID: -927489461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2211761da0aa1b04990903adb32b0be4
+      internalID: 851445742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baef3988e5e98cd4182836a369976249
+      internalID: 891338778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d01701f8ab499449a7fcbe0ba33fd7
+      internalID: 1340381206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a400dc904c70f8541a2fa90bdf70717c
+      internalID: -965845666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb75582a37284c84da39d89cf3c1143c
+      internalID: 197582969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e0c647c2083264384603acc90b12ac
+      internalID: 287375371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c10c7642c3d02418a36299bb4ab753
+      internalID: -1099638851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keith Idle animation sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf723319ef3ea440a6da30eb5f0c26f
+      internalID: 592991195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Keith Idle animation sprite sheet_0: 896714175
+      Keith Idle animation sprite sheet_1: 211680139
+      Keith Idle animation sprite sheet_10: -1547116653
+      Keith Idle animation sprite sheet_11: -1268065405
+      Keith Idle animation sprite sheet_12: -184005853
+      Keith Idle animation sprite sheet_13: 184993001
+      Keith Idle animation sprite sheet_14: -1833591313
+      Keith Idle animation sprite sheet_15: 1938994349
+      Keith Idle animation sprite sheet_16: -1299436762
+      Keith Idle animation sprite sheet_17: -1340345271
+      Keith Idle animation sprite sheet_18: 128386625
+      Keith Idle animation sprite sheet_19: 922950638
+      Keith Idle animation sprite sheet_2: -1854165490
+      Keith Idle animation sprite sheet_20: 1895693869
+      Keith Idle animation sprite sheet_21: 2091142048
+      Keith Idle animation sprite sheet_22: 1696199785
+      Keith Idle animation sprite sheet_23: 2032573491
+      Keith Idle animation sprite sheet_24: -1579802697
+      Keith Idle animation sprite sheet_25: -1057722988
+      Keith Idle animation sprite sheet_26: 746097262
+      Keith Idle animation sprite sheet_27: 59604467
+      Keith Idle animation sprite sheet_28: -1484032090
+      Keith Idle animation sprite sheet_29: 67103237
+      Keith Idle animation sprite sheet_3: -1761228991
+      Keith Idle animation sprite sheet_30: -927489461
+      Keith Idle animation sprite sheet_31: 851445742
+      Keith Idle animation sprite sheet_32: 891338778
+      Keith Idle animation sprite sheet_33: 1340381206
+      Keith Idle animation sprite sheet_34: -965845666
+      Keith Idle animation sprite sheet_35: 197582969
+      Keith Idle animation sprite sheet_36: 287375371
+      Keith Idle animation sprite sheet_37: -1099638851
+      Keith Idle animation sprite sheet_38: 592991195
+      Keith Idle animation sprite sheet_4: 2135774707
+      Keith Idle animation sprite sheet_5: 180325910
+      Keith Idle animation sprite sheet_6: 759298966
+      Keith Idle animation sprite sheet_7: 753626678
+      Keith Idle animation sprite sheet_8: 1071337571
+      Keith Idle animation sprite sheet_9: -1667759941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
