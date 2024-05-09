@@ -141,11 +141,11 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 68
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 4, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -165,7 +165,7 @@ TextureImporter:
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_2
       rect:
         serializedVersion: 2
-        x: 134
+        x: 136
         y: 0
-        width: 67.75
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_3
       rect:
         serializedVersion: 2
-        x: 203
+        x: 204
         y: 0
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_4
       rect:
         serializedVersion: 2
-        x: 271
+        x: 272
         y: 0
-        width: 66
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,13 +244,13 @@ TextureImporter:
       name: Dimi-Sheet bigger_5
       rect:
         serializedVersion: 2
-        x: 336
+        x: 340
         y: 0
-        width: 68
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 3, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -265,12 +265,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_6
       rect:
         serializedVersion: 2
-        x: 407
+        x: 408
         y: 0
-        width: 65
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,13 +286,13 @@ TextureImporter:
       name: Dimi-Sheet bigger_7
       rect:
         serializedVersion: 2
-        x: 475
+        x: 476
         y: 0
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 1, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -307,12 +307,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_8
       rect:
         serializedVersion: 2
-        x: 542
+        x: 544
         y: 0
-        width: 67
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_9
       rect:
         serializedVersion: 2
-        x: 611
+        x: 612
         y: 0
-        width: 66
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,7 +354,7 @@ TextureImporter:
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,7 +375,7 @@ TextureImporter:
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: Dimi-Sheet bigger_12
       rect:
         serializedVersion: 2
-        x: 815
+        x: 816
         y: 0
-        width: 65
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,10 +414,10 @@ TextureImporter:
         serializedVersion: 2
         x: 884
         y: 0
-        width: 65
+        width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,7 +438,7 @@ TextureImporter:
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,7 +459,7 @@ TextureImporter:
         width: 64
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

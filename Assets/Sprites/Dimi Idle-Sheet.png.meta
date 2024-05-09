@@ -141,11 +141,11 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 67.75
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 4, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -160,13 +160,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 67
+        x: 68
         y: 0
-        width: 67.75
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 0, z: 2, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -181,13 +181,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 134
+        x: 136
         y: 0
-        width: 66
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -202,13 +202,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 201
+        x: 204
         y: 0
-        width: 67.75
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -223,13 +223,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_4
       rect:
         serializedVersion: 2
-        x: 268
+        x: 272
         y: 0
-        width: 67.75
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 4, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -244,13 +244,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_5
       rect:
         serializedVersion: 2
-        x: 336
+        x: 340
         y: 0
-        width: 68
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 4, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -265,13 +265,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_6
       rect:
         serializedVersion: 2
-        x: 402
+        x: 408
         y: 0
-        width: 70
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -286,13 +286,13 @@ TextureImporter:
       name: Dimi Idle-Sheet_7
       rect:
         serializedVersion: 2
-        x: 469
+        x: 476
         y: 0
-        width: 71
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 7, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -307,9 +307,9 @@ TextureImporter:
       name: Dimi Idle-Sheet_8
       rect:
         serializedVersion: 2
-        x: 543
+        x: 544
         y: 0
-        width: 65
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -433,9 +433,9 @@ TextureImporter:
       name: Dimi Idle-Sheet_14
       rect:
         serializedVersion: 2
-        x: 951
+        x: 952
         y: 0
-        width: 65
+        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

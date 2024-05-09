@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ColourblindFilters : MonoBehaviour
 {
@@ -14,10 +15,18 @@ public class ColourblindFilters : MonoBehaviour
     public PostProcessProfile Protanopia;
     public PostProcessProfile Deuteranopia;
     public PostProcessVolume volume;
+    public PostProcessProfile current;
+
     // Start is called before the first frame update
-    void Start()
+     void Start()
     {
-        if(PlayerPrefs.GetInt("ToggleBool") == 1) 
+       Object.DontDestroyOnLoad(this);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (PlayerPrefs.GetInt("ToggleBool") == 1)
         {
             toggleNone.isOn = true;
             volume.profile = Default;
@@ -48,9 +57,12 @@ public class ColourblindFilters : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+    /*this needs to be in a DDOL object
+     * on scene load, find PP volume, update profile
+     * create currentProfile variable
+     * update currentProfile with selected option
+     * change scenes' volumes' profile top currentProfile
+     */
 }

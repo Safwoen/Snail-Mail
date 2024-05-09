@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7f0da10e4a5b84c80d9347f7c8678c
+      internalID: 1697995712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436add65d75f834ea80a032c9bdc0f9
+      internalID: -1656741424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373869c6fa26ca1429434ffb85c087f8
+      internalID: -285453606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ac40d5294d8ad46b129bdd0bad213a
+      internalID: -725142877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b7dd1909010874ab8670c2bd254daf
+      internalID: 553001931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42d20aad8d86dd468fc46cbbd8ba6f9
+      internalID: -1611016514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e377bfcf72917574d9b25af99268ace6
+      internalID: 1490321145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7de7a2c14d04a49b878e9ebc2864c6
+      internalID: -1848654814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ff380a7772d84b80c91e86ac48210
+      internalID: 27771507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ea82c47f9df354a88dc6d397ab115a
+      internalID: 860889109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963b2137582856243876e769ca29d3f0
+      internalID: 24698203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db209de36fcb434683ca62bde205310
+      internalID: 1039057658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef678ca75af8604da1bb7ef985ecc05
+      internalID: 148344976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_13
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c73cd4359fb34bb176a66f4760ba8
+      internalID: 1062416849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3f37d82b8faf74689c8505acaa04a2
+      internalID: -178990181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_15
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db9c0b37490e1b4e9c2c1c147123493
+      internalID: -742294028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_16
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc58fa47c9da704fabc0a4c506067d1
+      internalID: 888996505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_17
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f2b025a9a0ca4388babf3bf12c8c5
+      internalID: -439983350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_18
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145ff10e6e3543845ba0712bc81637e6
+      internalID: -1401775138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katie Sprite Sheett_19
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bef07200e444f541bc752f510c6198d
+      internalID: 288854198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +565,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Katie Sprite Sheett_0: 1697995712
+      Katie Sprite Sheett_1: -1656741424
+      Katie Sprite Sheett_10: 24698203
+      Katie Sprite Sheett_11: 1039057658
+      Katie Sprite Sheett_12: 148344976
+      Katie Sprite Sheett_13: 1062416849
+      Katie Sprite Sheett_14: -178990181
+      Katie Sprite Sheett_15: -742294028
+      Katie Sprite Sheett_16: 888996505
+      Katie Sprite Sheett_17: -439983350
+      Katie Sprite Sheett_18: -1401775138
+      Katie Sprite Sheett_19: 288854198
+      Katie Sprite Sheett_2: -285453606
+      Katie Sprite Sheett_3: -725142877
+      Katie Sprite Sheett_4: 553001931
+      Katie Sprite Sheett_5: -1611016514
+      Katie Sprite Sheett_6: 1490321145
+      Katie Sprite Sheett_7: -1848654814
+      Katie Sprite Sheett_8: 27771507
+      Katie Sprite Sheett_9: 860889109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
