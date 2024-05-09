@@ -18,14 +18,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Keybinds.unity
     guid: 6b762354cd9a6954ebeea717c0a72845
   - enabled: 1
+    path: Assets/Scenes/PackageMakingArrow.unity
+    guid: 92886d5fe1402cb41b4f554587ad517e
+  - enabled: 1
     path: Assets/Scenes/MailMakingPart 1.unity
     guid: 6393624afaf5bcd4497b98f8b4b7e103
   - enabled: 1
-    path: Assets/Scenes/MailMakingPart 2.unity
-    guid: 2897d36bc1ccb0e46b150dcd3c61afba
-  - enabled: 1
     path: Assets/Scenes/PackageMakingFragile.unity
     guid: 60e81c707418bce4597f1925a08afe79
+  - enabled: 1
+    path: Assets/Scenes/MailMakingPart 2.unity
+    guid: 2897d36bc1ccb0e46b150dcd3c61afba
   - enabled: 1
     path: Assets/Scenes/Delivering.unity
     guid: 5d09a530243a2df47ac4b759cadea019
