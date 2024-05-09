@@ -41,6 +41,7 @@ public class CharacterController2D : MonoBehaviour
         anim.SetFloat("Direction X", moveX) ;
         anim.SetFloat("Direction Y", moveY);
         anim.SetBool("Moving", moveX != 0 || moveY != 0);
+        
        
     }
 
