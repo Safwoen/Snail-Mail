@@ -315,6 +315,7 @@ MonoBehaviour:
   correctForm: {fileID: 0}
   paper: {fileID: 210365210}
   stamp: {fileID: 0}
+  music: {fileID: 0}
 --- !u!1 &176458859
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,6 +604,7 @@ MonoBehaviour:
   correctForm: {fileID: 0}
   paper: {fileID: 176458862}
   stamp: {fileID: 0}
+  music: {fileID: 0}
 --- !u!212 &176458865
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -918,6 +920,7 @@ MonoBehaviour:
   correctForm: {fileID: 0}
   paper: {fileID: 210365210}
   stamp: {fileID: 0}
+  music: {fileID: 0}
 --- !u!212 &210365209
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1772,6 +1775,7 @@ MonoBehaviour:
   correctForm: {fileID: 1360407323}
   paper: {fileID: 600943166}
   stamp: {fileID: 600943165}
+  music: {fileID: 0}
 --- !u!82 &600943165
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4885,6 +4889,7 @@ MonoBehaviour:
   correctForm: {fileID: 0}
   paper: {fileID: 1597426291}
   stamp: {fileID: 0}
+  music: {fileID: 0}
 --- !u!1 &1619777260
 GameObject:
   m_ObjectHideFlags: 0
@@ -5070,6 +5075,7 @@ MonoBehaviour:
   correctForm: {fileID: 0}
   paper: {fileID: 1633819753}
   stamp: {fileID: 0}
+  music: {fileID: 0}
 --- !u!212 &1633819750
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5683,6 +5689,7 @@ MonoBehaviour:
   correctForm: {fileID: 1530896757}
   paper: {fileID: 1941877026}
   stamp: {fileID: 1941877025}
+  music: {fileID: 1457473696}
 --- !u!61 &1941877023
 BoxCollider2D:
   m_ObjectHideFlags: 0

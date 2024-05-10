@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Second : MonoBehaviour
 {
@@ -13,18 +14,20 @@ public class Second : MonoBehaviour
     private float startPosY;
     public AudioSource paper;
     public AudioSource stamp;
+    [SerializeField] AudioSource music;
+    float musicTime;
 
     private Vector3 resetPosition;
     void Start()
     {
+        music.Play();
+        music.time = musicTime;
         resetPosition = this.transform.localPosition;
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     void Update()
     {
-
-
 
         if (moving)
         {
@@ -35,6 +38,7 @@ public class Second : MonoBehaviour
             this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.localPosition.z);
             //this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
         }
+        
     }
 
     private void OnMouseDown()
@@ -74,4 +78,7 @@ public class Second : MonoBehaviour
         }
         //this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
+
+
+   
 }
