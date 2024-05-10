@@ -46,13 +46,5 @@ public class Music : MonoBehaviour
         
     }
 
-    public void OnMusic()
-    {
-        music.Play();
-    }
-
-    public void OffMusic()
-    {
-        music.Stop();
-    }
+    
 }

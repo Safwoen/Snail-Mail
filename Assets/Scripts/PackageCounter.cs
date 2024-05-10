@@ -8,7 +8,7 @@ public class PackageCounter : MonoBehaviour
     public static PackageCounter instance;
 
     public TMP_Text packageText;
-    public int currentPackage = 0;
+    public int currentPackage = 5;
 
      void Awake()
     {
@@ -17,7 +17,7 @@ public class PackageCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        packageText.text = "Package: " + currentPackage.ToString();
+        packageText.text = "Package Delivered: " + currentPackage.ToString();
     }
 
 
