@@ -6,7 +6,7 @@ using UnityEngine.U2D.IK;
 
 public class CharacterController2D : MonoBehaviour
 {
-    public const float MOVE_SPEED = 150f;
+    public const float MOVE_SPEED = 200f;
     private Rigidbody2D rigidbody2D;
     private Vector3 moveDir;
     public Animator anim;
