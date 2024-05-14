@@ -35,11 +35,12 @@ public class Collectible : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && test2)
+        if (Input.GetKeyDown(KeyCode.E) && test2 )
         {
 
             if (test.CompareTag("Player"))
             {
+                test2 = false;
                 box.SetActive(true);
                 dm.StartDialogue(dialogue);
                 //test.GetComponent<CharacterController>().collectablesCollected++;
