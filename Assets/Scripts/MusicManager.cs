@@ -6,6 +6,7 @@ public class MusicManager : MonoBehaviour
 {
 
     [SerializeField] AudioSource music;
+    float time;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +22,12 @@ public class MusicManager : MonoBehaviour
     public void OnMusic()
     {
         music.Play();
+        music.time = time;
     }
 
     public void OffMusic()
     {
         music.Stop();
+        time = music.time;
     }
 }

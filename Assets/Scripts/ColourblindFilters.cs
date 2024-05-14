@@ -18,9 +18,23 @@ public class ColourblindFilters : MonoBehaviour
     public PostProcessProfile current;
 
     // Start is called before the first frame update
-     void Start()
+    void Awake()
     {
-       Object.DontDestroyOnLoad(this);
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("ddol");
+
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+        SceneManager.sceneLoaded += OnSceneLoad;
+
+    }
+
+    private void OnSceneLoad(Scene arg0, LoadSceneMode arg1)
+    {
+      
     }
 
     // Update is called once per frame
