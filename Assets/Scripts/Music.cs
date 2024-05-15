@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.SceneManagement;
 
 public class Music : MonoBehaviour
@@ -9,6 +10,7 @@ public class Music : MonoBehaviour
     [SerializeField] AudioSource music;
     [SerializeField] AudioClip musicClip;
     float time;
+    public PostProcessProfile currentProfile;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class Music : MonoBehaviour
     private void OnSceneLoad(Scene arg0, LoadSceneMode arg1)
     {
         music.time = time;
+        FindObjectOfType<PostProcessVolume>().profile = currentProfile;
     }
 
     private void OnSceneUnload(Scene arg0)

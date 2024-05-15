@@ -37,8 +37,14 @@ public class ColourblindFilters : MonoBehaviour
       
     }
 
+    public void ChangeProfile(PostProcessProfile arg0)
+    {
+        //FindObjectOfType<Music>().currentProfile = arg0;
+        FindObjectOfType<PostProcessVolume>().profile = arg0;
+    }
+
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (PlayerPrefs.GetInt("ToggleBool") == 1)
         {
@@ -69,7 +75,7 @@ public class ColourblindFilters : MonoBehaviour
         {
             toggleDeuteranopia.isOn = false;
         }
-    }
+    }*/
 
 
 

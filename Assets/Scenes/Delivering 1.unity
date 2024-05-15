@@ -1247,7 +1247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88755167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 528, y: 405, z: -5.0423}
+  m_LocalPosition: {x: 2812, y: 405, z: -5.0423}
   m_LocalScale: {x: 22.68971, y: 22.68971, z: 22.68971}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6060,30 +6060,33 @@ MonoBehaviour:
   dialogue:
     name: Marigold
     sentences:
-    - SPRITE-Marigold
-    - "Oh! Hello! You must be Dimi right? Pleasure to meet you! I'm Marigold! \r\n"
-    - " I'm guessing you\u2019ve got something for me hm?~ What is it!? "
-    - Ohhhh!! I know that logo on that box! These are my awards!!
     - SPRITE-Player
-    - "A\u2026wards..? "
+    - Good morning Marigold! I have another letter for you!
     - SPRITE-Marigold
-    - "Yes! My acting awards! I believe these are for the movie \u2018 Rose Tinted
-      Glasses \u2018, which I starred in."
-    - ' I was in many other movies! Some even abroad! France, Germany, Japan. You
-      name it!'
+    - Good morning to you too my dear, and you do? Exciting! Let me see.
     - SPRITE-Player
-    - "Wow! I had no idea you were living here!! Congratulations on the awards! \r\n"
+    - Alright here you go! It looks quite fancy.. What does it say?
     - SPRITE-Marigold
-    - 'Thank you, Dimi! But I do have a favour to ask you, would you mind delivering
-      something for me today?  '
-    - I would like you to deliver this letter to JiJi. The artist who lives just
-      over there.
-    - Have you seen how elegantly he paints? It's astonishing! I'm going to ask him
-      to paint me with my new awards.
+    - "Oh! It's just an invitation to a red carpet party for the premier of my new
+      movie, \u2018 Where the wind blows \u2018 "
     - SPRITE-Player
-    - "Of course! And that sounds lovely! I'm sure you\u2019ll look beautiful! "
+    - Wonderful! I've always seen red carpet parties on TV, they seem like such fun!
+      Are you going to go?
     - SPRITE-Marigold
-    - 'Goodbye! Have a nice day! '
+    - "Well of course but, you see I can't think of which dress I'm going to use..
+      \r\n"
+    - SPRITE-Player
+    - "Hm.. honestly? I don\u2019t think you should go in a dress at all."
+    - SPRITE-Marigold
+    - Oh?
+    - SPRITE-Player
+    - "I think you\u2019d look lovely in some black trousers! Maybe you could wear
+      something flowy as your top too!\r\n"
+    - SPRITE-Marigold
+    - "\u2026huh.. I see.. Yes that could work, thank you for mentioning it! Ill
+      see what I can do. Tah-tah for now!~"
+    - SPRITE-Player
+    - 'Bye! Have a nice day! '
   dm: {fileID: 0}
   box: {fileID: 391096676}
   Image: {fileID: 1088961872}
@@ -7015,31 +7018,30 @@ MonoBehaviour:
     name: Damien
     sentences:
     - SPRITE-Damien
-    - "Hello, you must be Dimi right? The whole town of Pizmo has been hearing about
-      you. I hope you\u2019re enjoying your new job! "
-    - "How did I know it was a new job? \u2026. Lucky guess?"
-    - "Anyways! What\u2019s this? A letter for me? Why thank you-"
-    - "Argh\u2026 Bills again.. Bats.."
+    - "Oh! Another letter? So soon? They must be serious about the bill thing.. \r\n"
     - SPRITE-Player
-    - 'How come you keep getting so many urgent notices, Damien?
-
-'
+    - "Why can\u2019t you just pay for it? Then they\u2019ll stop bothering you! "
     - SPRITE-Damien
-    - Well, many many MANY years ago, i decided to paint my house red and black to
-      better suit me and my style.
-    - But APPARENTLY there's a rule here that all houses must at least be uniform
-      in colour pallet. Whilst everyone had light cool, warm coloured houses.. Black
-      and maroon wasn't allowed! Inconceivable right!?
-    - "Then they had the audacity to fine me for it after I painted it back! I'm
-      not paying it out of pure spite. \r\n"
+    - 'I.. '
     - SPRITE-Player
-    - "But\u2026\u2026\u2026 What if you get kicked out!?"
+    - " ..uhhh huh? \r\n"
     - SPRITE-Damien
-    - "These bills have been coming here 3 mailmen prior. I don\u2019t think I'm
-      leaving anytime soon dear. But thank you for the mail! "
+    - 'Oh I admit it, I can''t pay for them! I can''t afford them!! '
+    - " I'm really close to being evicted.. I\u2019ve never worked a job in my 3000
+      years of life! I don\u2019t know how to get a job..\r\n"
     - SPRITE-Player
-    - 'Alright! Bye! '
-    - 'Alright! Bye! '
+    - 'Oh no.. well.. Maybe you can look around in town and ask in person if people
+      need help with things in their shops- '
+    - "\u2026 Did you say your \u2018 3000 years of life \u2018 just now? "
+    - SPRITE-Damien
+    - "Well yes, didn\u2019t I tell you? I'm a vampire! "
+    - SPRITE-Player
+    - "Wait.. So you\u2019re saying you\u2019ve never worked a day in your life for
+      3000 years!? "
+    - SPRITE-Damien
+    - 'Yes..? What is that bad? '
+    - SPRITE-Player
+    - "Yes that's bad! But.. at least you\u2019re starting somewhere.. \r\n"
   dm: {fileID: 1207016666}
   box: {fileID: 391096676}
   Image: {fileID: 87018487}
@@ -9307,7 +9309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855114725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 528, y: 405, z: -15.0423}
+  m_LocalPosition: {x: 2812, y: 405, z: -15.0423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13572,7 +13574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152, y: -64}
+  m_AnchoredPosition: {x: 152, y: -61.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298164661
