@@ -15741,19 +15741,50 @@ MonoBehaviour:
     name: 
     sentences:
     - SPRITE-Player
-    - 'Hello! I have a message for you! JiJi right? '
+    - 'Hello? Delivery! '
     - SPRITE-Jiji
-    - "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026."
+    - "Oh\u2026\u2026..Hello\u2026\u2026\u2026.."
     - SPRITE-Player
-    - 'U-Uh.. Well it says it on your door! So I''m guessing so! '
-    - "So Marigold asked me to tell you that she would like you to paint her later
-      on today! \r\n"
+    - 'Hi again! How are you? '
     - SPRITE-Jiji
-    - "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..y-yeah..ok..
-      that\u2019s..fine"
-    - "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..Th-Thank you.. "
+    - 'Im.. alright i guess.. '
     - SPRITE-Player
-    - "You\u2019re welcome..! Well he was quiet wasn\u2019t he? "
+    - That's good! But hey, your hands are covered in paint, were you working on
+      something?
+    - SPRITE-Jiji
+    - 'O-Oh! Actually yes I was.. Also it''s not paint.. It''s clay.. '
+    - SPRITE-Player
+    - "Oh wow you do pottery too? I'm guessing you made the pot out front of your
+      house too? You\u2019re ama-\r\n\r\n"
+    - SPRITE-Jiji
+    - 'No no I uhm.. I bought.. That.. '
+    - SPRITE-Player
+    - "\u2026\u2026\u2026.oh!"
+    - SPRITE-Jiji
+    - "Its fine dont worry i\u2026 still appreciate the compliment though.. Uhm..
+      you had a letter for me.. ? "
+    - SPRITE-Player
+    - 'Oh! I did yeah, here you go! '
+    - SPRITE-Jiji
+    - "\u2026\u2026. Thank you.. But uhm.. I need some advice.."
+    - SPRITE-Player
+    - Sure of course, what do you need?
+    - SPRITE-Jiji
+    - 'So.. im having my artwork on display in a gallery and whilst thats.. Great
+      and all! I.. i.. Have to have a speech prepared.. In front of tons of people.. '
+    - SPRITE-Player
+    - 'Ah! I get it, you''re really nervous huh? '
+    - SPRITE-Jiji
+    - 'Super nervous..! I''m not.. Very good at speaking.. Let alone speaking publicly.. '
+    - SPRITE-Player
+    - "Well, what I think might help is having notes prepared! Practise in front
+      of a mirror or in front of friends! Like Marigold or Keith! \r\n"
+    - SPRITE-Jiji
+    - 'I guess that might help.. Thanks Dimi '
+    - SPRITE-Player
+    - "It's okay! I'm sure you\u2019ll do flawlessly! Cya!"
+    - SPRITE-Jiji
+    - Goodbye..!
   dm: {fileID: 0}
   box: {fileID: 391096676}
   Image: {fileID: 1985300614}
@@ -20637,61 +20668,57 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - SPRITE-Katie
-    - 'Oh my gosh! Dimi!? Is that you!? '
     - SPRITE-Player
-    - Katie! Hi! I was supposed to come over yesterday and let you know I'm working
-      here now!
-    - " \u2026\u2026\u2026\u2026.. but I forgot!  "
+    - 'Katie! Hi! '
     - SPRITE-Katie
-    - "That\u2019s fine! That\u2019s fine! It\u2019s so good to see you! I'm just
-      surprised that's all!"
-    - " I'm guessing you\u2019ve got a letter for me? "
+    - "Hello!! I'm guessing you\u2019ve uh.. Got a letter for me right?"
     - SPRITE-Player
-    - Yeah I do! Here you go!
+    - "I sure do! But.. How come you\u2019re so nervous? "
     - SPRITE-Katie
-    - "Oh! It\u2019s Zumor\u2019s..!!! How sweet of him..\r\n\r\n"
+    - 'W-Well, I sent that love letter off to Zumor remember? I sent it as a next
+      day morning delivery thing to where he lived! '
     - SPRITE-Player
-    - "Zumor? What\u2019s the letter say? "
+    - "Ohhh!!!! Wait lemme see in my bag if iveee\u2026 I do! Look! It's got his
+      name on it!! \r\n"
     - SPRITE-Katie
-    - " O-Oh! It\u2019s just some work stuff, that's all. You know how the cop job
-      goes.. But letters from him to me are always so.. Comforting. "
+    - "AHHH!! I can't read it!!! I can't read it!! Read it for me, read it for me!
+      \r\n"
     - SPRITE-Player
-    - ' Ohhhh I see what''s going on here!!'
+    - "Alright alright! Let's have a looooksieee.. Oh! Oh.. uh huh.. Errrrr\u2026huh. "
     - SPRITE-Katie
-    - "\u2026\u2026\u2026..?"
+    - What!? Is it bad!? Why are you making that face?!
     - SPRITE-Player
-    - You have a big crush on hi-
-    - SPRITE-Katie
-    - "DON\u2019T SAY IT SO LOUD!!!!!! "
-    - "But\u2026 You\u2019re right, I do.. And I don't know what to do!! Help me
-      Dimi! "
-    - "I've been wanting to tell him how I feel for so long I.. I don\u2019t know
-      what to do o-or say.. What if he doesn\u2019t like me the way I like him..? "
-    - SPRITE-Player
-    - "Don\u2019t say that Katie.. You\u2019re absolutely loveable! Love is a scary
-      thing, you\u2019re right. The fear of rejection is a big thing but you never
-      know, Zumor could be feeling the exact same thing! "
-    - SPRITE-Katie
-    - 'I-I guess so.. I mean.. We work in the same sector.. He brings me coffee a
-      lot.. Ice cream too..
+    - 'Oh! No it isn''t bad, it''s just.. Barely legible.. I can''t read cursive
+      writing.
 
 '
-    - SPRITE-Player
-    - Oh honey he likes you. Like.. LIIIIKE likes you. Like kissy kissy loves yo-
     - SPRITE-Katie
-    - 'Quit iiiit!! .. But you think I should ask him..? I need some external support
-      here.. '
+    - Oh! Well.. ok just give it to me!
     - SPRITE-Player
-    - Of course you can do it! But.. I'm not sure if I can deliver it to a whole
-      other area in one day!
+    - "\u2026\u2026\u2026"
     - SPRITE-Katie
-    - 'Oh that''s okay! I''ll figure it out on my own! Thank you Dimi.. I really
-      appreciate your help. I''ll let you know how it goes tomorrow! '
+    - "\u2026\u2026\u2026\u2026\u2026\u2026.."
     - SPRITE-Player
-    - 'Alright! Save me a seat at the wedding! Cya! '
+    - " \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026."
     - SPRITE-Katie
-    - 'Shhhh!! Goodbye! '
+    - Oh my gosh Dimi? DIMI!? HE SAID YES!!
+    - SPRITE-Player
+    - Yes!! Congrats!!! Oh my gosh you HAVE to tell me how it goes ok!? When's the
+      date!?
+    - SPRITE-Katie
+    - "He said tomorrow at night! By the time this letter has reached me, he said
+      he\u2019s already booked a restaurant reservation for us!!"
+    - SPRITE-Player
+    - "Eeee!! I'm so happy for you!! See?! I told you he\u2019d like you!!"
+    - SPRITE-Katie
+    - "Aww Dimi!! Thank you, really!! You\u2019re the bestest friend a woman could
+      ever ask for!!\r\n"
+    - SPRITE-Player
+    - ' Awwww so are you too!'
+    - SPRITE-Katie
+    - "Well I have to go and get ready! I'll talk to you later \u2018kay?"
+    - SPRITE-Player
+    - Sure!! Have fun! Goodbye!
   dm: {fileID: 0}
   box: {fileID: 306292208}
   Image: {fileID: 426393689}
@@ -20819,42 +20846,27 @@ MonoBehaviour:
     name: 
     sentences:
     - SPRITE-Keith
-    - 'Hey there! I''m on a quick break right now but i''ll get back to baking real
-      soon alright? '
-    - "Wait.. Oh!! You\u2019re the new postgirl Nice to meet you, Im Keith! Baker
-      prodigy.. Yup.. that's me alright!"
+    - There you are!
     - SPRITE-Player
-    - "Hi Keith! It's nice to meet you too, I'm Dimi! Wait... Prodigy..? I don\u2019t
-      think I've heard of you specifically before.. "
+    - "Oh! Were you waiting for me? What\u2019s Up? "
     - SPRITE-Keith
-    - 'Yeowch.. Way to hurt my pride.. But it''s cool, I have to be humble just a
-      little bit in this day and age! So, What''cha got for me Dimi? '
-    - A Pamphlet..? How can a Pamphlet be directly addressed to m-
-    - " \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026"
-    - A-A Baking competition!? ON TV!? ME?!?
+    - " So, yesterday I practised all day and went onto the evening baking competition.
+      You wouldn\u2019t believe what happened! \r\n"
     - SPRITE-Player
-    - Wow! You must be really well known then!! Sorry about earlier!
+    - What happened?
     - SPRITE-Keith
-    - "I can\u2019t believe it.. I've been invited to Taysh-Tee\u2019s baking competition!!
-      This is amazing!!"
-    - "But\u2026. also nerve wracking.. "
-    - Should I go..? I mean I know I was boasting before and all.. But what if my
-      Baking isn't good enough..? I'll be a laughing stock!
+    - I got a blue ribbon!!! I made a hazelnut toffee swirl sponge cake with apple
+      shavings and crunchy honeycomb! Oh! With pop rocks as well! It had to be unlike
+      anything I've ever made before!
     - SPRITE-Player
-    - 'I think you should go, without a shred of doubt! '
-    - 'This is a once in a lifetime opportunity for you as a baker and it could even
-      boost your customer rate! '
-    - "It\u2019s good to do something you enjoy competitively once in a while. It
-      makes you strive to be better and better than you were before!"
+    - ' That''s incredible! Good job Keith! '
     - SPRITE-Keith
-    - "\u2026.Wow.. Yeah.. You\u2019re right! The worst thing that could even happen
-      is me losing the competition and losing everything I've worked so hard for!! "
+    - 'Hah, I know. I''m pretty cool aren''t i? But.. thanks to you too of course,
+      if it weren''t for you i would have probably missed that competition! '
     - SPRITE-Player
-    - Th-That's.. a bit excessi-
+    - " Aww it was nothing! Well here\u2019s your letter and goodbye!"
     - SPRITE-Keith
-    - 'I must practise! Thank you Dimi! '
-    - SPRITE-Player
-    - "Y-You\u2019re.. Welcome..? "
+    - Cya, D!
   dm: {fileID: 0}
   box: {fileID: 391096676}
   Image: {fileID: 2134711497}
