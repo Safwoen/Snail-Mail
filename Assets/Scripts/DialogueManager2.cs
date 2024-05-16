@@ -13,6 +13,7 @@ public class DialogueManager2 : MonoBehaviour
     public Sprite[] images;
     public Image portrait;
     public GameObject Score;
+    
 
     public Animator animator;
 
@@ -94,9 +95,15 @@ public class DialogueManager2 : MonoBehaviour
                 case "Katie":
                     portrait.sprite = images[5];
                     nameText.text = "Katie";
+                    Score.gameObject.SetActive(true);
                     break;
                 
             }
+            sentence = sentences.Dequeue();
+        }
+        else if (sentence.Contains("SHOW SCORE"))
+        {
+            Score.gameObject.SetActive(true);
             sentence = sentences.Dequeue();
         }
         StopAllCoroutines();
@@ -116,6 +123,7 @@ public class DialogueManager2 : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        
        
 
     }

@@ -20,7 +20,7 @@ public class ColourblindFilters : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("ddol");
+        /*GameObject[] objs = GameObject.FindGameObjectsWithTag("ddol");
 
         if (objs.Length > 1)
         {
@@ -29,7 +29,7 @@ public class ColourblindFilters : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
         SceneManager.sceneLoaded += OnSceneLoad;
-
+*/
     }
 
     private void OnSceneLoad(Scene arg0, LoadSceneMode arg1)
@@ -39,8 +39,8 @@ public class ColourblindFilters : MonoBehaviour
 
     public void ChangeProfile(PostProcessProfile arg0)
     {
-        //FindObjectOfType<Music>().currentProfile = arg0;
         FindObjectOfType<PostProcessVolume>().profile = arg0;
+        FindObjectOfType<Music>().currentProfile = arg0;
     }
 
     // Update is called once per frame

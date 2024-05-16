@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEditor.Search.Providers;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialogueBox;
     public Sprite[] images;
     public Image portrait;
+    public GameObject score;
 
     public Animator animator;
 
@@ -96,6 +98,12 @@ public class DialogueManager : MonoBehaviour
             }
             sentence = sentences.Dequeue();
         }
+        else if (sentence.Contains("SHOW SCORE"))
+        {
+            score.gameObject.SetActive(true);
+            sentence = sentences.Dequeue();
+        }
+        
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }

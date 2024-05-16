@@ -9,14 +9,16 @@ public class PackageCounter : MonoBehaviour
 
     public TMP_Text packageText;
     public int currentPackage = 5;
+    bool test2;
 
-     void Awake()
+    void Awake()
     {
         instance = this;    
     }
     // Start is called before the first frame update
     void Start()
     {
+        
         packageText.text = "Package Delivered: " + currentPackage.ToString();
     }
 
@@ -32,8 +34,10 @@ public class PackageCounter : MonoBehaviour
         Debug.LogWarning("hyjgfhytjg");
         if (other.gameObject.CompareTag("Package"))
         {
+            test2 = true;
             currentPackage++;
             packageText.text = "Package: " + currentPackage.ToString();
+
         }
     }
 }
