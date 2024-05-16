@@ -21,13 +21,13 @@ public class ScoreScript : MonoBehaviour
       score.text = " " + scoreValue;
         if (scoreValue <= 2000)
         {
-            high. SetActive (true);
+            high. SetActive (false);
         }
        else
         {
             if (scoreValue >= 2000)
             {
-                high.SetActive(false);
+                high.SetActive(true);
                 //high.enabled = false;
             }
        }

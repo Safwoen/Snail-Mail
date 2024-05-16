@@ -37,7 +37,7 @@ public class PackageCounter : MonoBehaviour
             test2 = true;
             currentPackage++;
             packageText.text = "Package: " + currentPackage.ToString();
-
+            other.tag = "collected";
         }
     }
 }

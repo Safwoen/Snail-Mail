@@ -7,7 +7,7 @@ public class meny : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void QuitGame()
@@ -55,8 +55,13 @@ public class meny : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void backtogame1()
+    public void backtomenu()
     { 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
+    public void tutorial()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
+
