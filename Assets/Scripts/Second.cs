@@ -69,6 +69,7 @@ public class Second : MonoBehaviour
         {
             this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
             stamp.PlayOneShot(stamp.clip);
+            FindObjectOfType<ScoreScript>().scoreValue += 500;
         }
         else
         {

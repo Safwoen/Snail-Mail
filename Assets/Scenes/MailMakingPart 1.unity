@@ -5685,7 +5685,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1601292365}
         m_TargetAssemblyTypeName: meny, Assembly-CSharp
-        m_MethodName: MailMakingPart2
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

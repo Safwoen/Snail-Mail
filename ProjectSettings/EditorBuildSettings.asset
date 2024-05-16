@@ -35,4 +35,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Delivering.unity
     guid: 5d09a530243a2df47ac4b759cadea019
+  - enabled: 1
+    path: Assets/Scenes/Day 2.unity
+    guid: e27f0d63e746c724d8831ce8762e130a
+  - enabled: 1
+    path: Assets/Scenes/MailMakingPart 3.unity
+    guid: 71734873161c5d44f81aac53506b80d5
+  - enabled: 1
+    path: Assets/Scenes/PackageMakingArrow 1.unity
+    guid: 23a6c599d77a10c4c889ce8b1eb83fbd
+  - enabled: 1
+    path: Assets/Scenes/MailMakingPart 4.unity
+    guid: 6a1bfde949d5c3d44b7ecd3d2d368614
+  - enabled: 1
+    path: Assets/Scenes/PackageMakingFragile 1.unity
+    guid: e8fd70bf780cc3f49b1e53fa39e1dae5
+  - enabled: 1
+    path: Assets/Scenes/MailMakingpart MAINMAIN 2.unity
+    guid: 70c7f0ef44d156649b9d4088710a6ef1
+  - enabled: 1
+    path: Assets/Scenes/Delivering 1.unity
+    guid: 79708ddac9fff5449b702ccc121fc7ec
   m_configObjects: {}
