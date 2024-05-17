@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.InputSystem.Android;
+//using UnityEngine.InputSystem.Android;
 using UnityEngine.UI;
 
 public class Collectible : MonoBehaviour

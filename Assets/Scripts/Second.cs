@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Second : MonoBehaviour
 {
     public GameObject correctForm;
+    public GameObject button;
 
     private bool moving;
 
@@ -70,6 +71,7 @@ public class Second : MonoBehaviour
             this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
             stamp.PlayOneShot(stamp.clip);
             FindObjectOfType<ScoreScript>().scoreValue += 500;
+            button.SetActive(true);
         }
         else
         {

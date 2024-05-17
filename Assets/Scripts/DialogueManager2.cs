@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEditor.Search.Providers;
+//using UnityEditor.Search.Providers;
 
 public class DialogueManager2 : MonoBehaviour
 {

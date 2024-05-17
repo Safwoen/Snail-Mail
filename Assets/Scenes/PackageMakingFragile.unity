@@ -313,6 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 0}
+  button: {fileID: 0}
   paper: {fileID: 0}
   stamp: {fileID: 0}
   music: {fileID: 0}
@@ -623,6 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 0}
+  button: {fileID: 0}
   paper: {fileID: 0}
   stamp: {fileID: 0}
   music: {fileID: 0}
@@ -4065,6 +4067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 1530896757}
+  button: {fileID: 1495530184}
   paper: {fileID: 1597426292}
   stamp: {fileID: 1597426291}
   music: {fileID: 0}
@@ -4406,6 +4409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 1360407323}
+  button: {fileID: 0}
   paper: {fileID: 1633819753}
   stamp: {fileID: 1633819752}
   music: {fileID: 0}
@@ -5012,6 +5016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 0}
+  button: {fileID: 0}
   paper: {fileID: 0}
   stamp: {fileID: 0}
   music: {fileID: 0}
@@ -5453,6 +5458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 0}
+  button: {fileID: 0}
   paper: {fileID: 2105467672}
   stamp: {fileID: 0}
   music: {fileID: 0}
