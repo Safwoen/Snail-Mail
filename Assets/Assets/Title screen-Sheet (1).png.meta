@@ -139,9 +139,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 16
         y: 0
-        width: 482
+        width: 480
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -160,9 +160,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_1
       rect:
         serializedVersion: 2
-        x: 526
+        x: 528
         y: 0
-        width: 498
+        width: 496
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -202,9 +202,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_11
       rect:
         serializedVersion: 2
-        x: 5727
+        x: 5728
         y: 0
-        width: 498
+        width: 497
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -223,9 +223,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_12
       rect:
         serializedVersion: 2
-        x: 6255
+        x: 6256
         y: 0
-        width: 482
+        width: 481
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -267,7 +267,7 @@ TextureImporter:
         serializedVersion: 2
         x: 7279
         y: 0
-        width: 514
+        width: 513
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -286,9 +286,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_15
       rect:
         serializedVersion: 2
-        x: 7807
+        x: 7808
         y: 0
-        width: 498
+        width: 496
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -309,7 +309,7 @@ TextureImporter:
         serializedVersion: 2
         x: 8335
         y: 0
-        width: 482
+        width: 480
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -328,9 +328,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_17
       rect:
         serializedVersion: 2
-        x: 8854
+        x: 8856
         y: 0
-        width: 483
+        width: 480
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -349,9 +349,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_18
       rect:
         serializedVersion: 2
-        x: 9374
+        x: 9376
         y: 0
-        width: 484
+        width: 481
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -370,7 +370,7 @@ TextureImporter:
       name: Title screen-Sheet (1)_2
       rect:
         serializedVersion: 2
-        x: 1039
+        x: 1040
         y: 0
         width: 512
         height: 320
@@ -391,9 +391,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_3
       rect:
         serializedVersion: 2
-        x: 1566
+        x: 1568
         y: 0
-        width: 497
+        width: 495
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -433,9 +433,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_5
       rect:
         serializedVersion: 2
-        x: 2607
+        x: 2608
         y: 0
-        width: 498
+        width: 496
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -454,9 +454,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_6
       rect:
         serializedVersion: 2
-        x: 3119
+        x: 3120
         y: 0
-        width: 513
+        width: 512
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -496,9 +496,9 @@ TextureImporter:
       name: Title screen-Sheet (1)_8
       rect:
         serializedVersion: 2
-        x: 4174
+        x: 4176
         y: 0
-        width: 482
+        width: 480
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
